@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 6</title>
+</head>
+<body>
+    <header>
+        <h1>Formularios</h1>
+    </header>
+    <section>
+        <form>
+            <fieldset>
+                <legend>
+                    Información Personal
+                </legend>
+            <label> Nombre
+               <!-- <input disabled value="Veronica" type="text" maxlength="2">-->
+             <input type="text" >
+            </label>
+            <br>
+            <br>
+            <label> Apellido
+                <input type="text">
+            </label>
+            <br>
+            <br>
+            <input type="radio" name="estadoCivil" checked>Soltero
+            <input type="radio" name="estadoCivil">Casado
+            <input type="radio" name="estadoCivil">Viudo
+            <input type="radio" name="estadoCivil">S/N
+            <br>
+            <br>
+
+            <select>
+                <option>Casa1</option>
+                <option selected>Casa2</option>
+                <option>Casa3</option>
+                <option>Casa4</option>
+            </select>
+        </fieldset>
+            <fieldset>
+                <legend>
+                        Comidas
+                </legend>
+                <input type="radio" name="comida" checked>Pizza
+                <input type="radio" name="comida">Milanesa
+                <input type="radio" name="comida">Fideos
+                <input type="radio" name="comida">Pastel de papas
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Colores
+                </legend>
+                <label> Elegir un color:
+                <input type="color">
+                </label>
+            </fieldset>
+            <br>
+            <input type="submit" value="Enviar">
+        </form>
+         <!--Elementos en bloque-->
+         <h1>Bloque</h1>
+        <!--Elementos en linea-->
+        <a href="#">Hola a todos</a>
+        <a href="#">como estan</a>
+        <a href="#">bien?</a>
+        <!--Tambien las imagenes son en linea-->
+        <h2>Cajas div</h2>
+        <div>
+         <h1>Titulo de pagina</h1>  
+
+        </div>
+        <!--Barra menu-->
+        <div>
+            <a href="#">Inicio</a>
+            <a href="#">Quienes</a>
+            <a href="#">Contacto</a>
+        </div>   
+        <!--Cuerpo de la pagin--> 
+        <div>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit consectetur ullam dolor quis, 
+                acilis laboriosam natus eos unde nemo eligendi asperiores quia quam et. Quo delectus omnis ipsam totam quae?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum quos placeat atque labore magnam nemo quia
+                 exercitationem esse harum necessitatibus facere ex fugit, aliquam tempore eos dolorum veniam soluta laudantium?
+            </p>
+        </div>
+        <!--Pie de pagina-->
+        <div>
+            <address>calle 44 numero 333</address>
+        </div>
+    </section>
+</body>
+</html>
