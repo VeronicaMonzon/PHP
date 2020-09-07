@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+
+    background-color: royalblue;
+    background-image: url(header.jpg);
+ 
+
+}
+
+nav li {
+
+    list-style: none;
+    text-align: right;
+   
+}
+
+section {
+
+    width: 100%;
+    height: 800px;
+    background-color: tan;
+}
+
+footer {
+
+    background-color: tomato;
+    text-align: right;
+    height: 50px;
+}
+
+.inicio {
+
+    width: 800px;
+   height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}

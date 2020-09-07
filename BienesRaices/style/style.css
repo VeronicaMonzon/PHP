@@ -1,0 +1,30 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+header{
+background-image:url(../img/header.jpg);
+height:147vh;
+background-repeat: no-repeat;
+background-position: top;
+}
+body{
+    margin-top:0px;
+}
+.nosotros{
+  display:inline-flex; 
+}
+.iconos{
+text-align: center;
+}
+.anuncios{
+    display:inline-flex;  
+}
+footer{
+    background-color: rgb(56, 55, 55);
+    height:50px;
+     
+}
+.iconosAnuncios{
+    display:inline-flex;  
+}

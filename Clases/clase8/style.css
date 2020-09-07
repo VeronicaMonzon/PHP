@@ -1,0 +1,38 @@
+h1{
+    color:rgb(212, 200, 200);
+}
+h2{
+    font-size:45px;
+}
+/*div{
+    background-color: blueviolet;
+   
+}*/
+.inicio{
+    color:rgb(30, 226, 135);
+    text-align: center;
+    background-color: darksalmon;
+}
+.caja1{
+    width:300px;
+    height:200px;
+    background-color: darkturquoise;
+}
+.caja2{
+    width:300px;
+    height:200px;
+    background-color: rgb(93, 74, 146);
+}
+.caja3{
+    width:300px;
+    height:200px;
+    background-color: rgb(223, 37, 161);
+}
+
+.caja1 h1{
+    color:white;
+}
+.solo{
+    color: rgb(141, 27, 235);
+    font-size: 25px;
+}
