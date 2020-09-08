@@ -8,6 +8,21 @@ height:147vh;
 background-repeat: no-repeat;
 background-position: top;
 }
+h2{
+    color:white;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    align-self: center;
+}
+a{
+    text-decoration: none;
+	color: white;
+	text-transform: capitalize;
+	font-size: 1em;
+    margin-right: 15px;
+}
 body{
     margin-top:0px;
 }
@@ -26,5 +41,13 @@ footer{
      
 }
 .iconosAnuncios{
+    display:inline-flex;  
+}
+.conatcto{
+    background-image:url(../img/encuentra.jpg);
+    height:95vh;
+    background-repeat: no-repeat;
+}
+.blog{
     display:inline-flex;  
 }
