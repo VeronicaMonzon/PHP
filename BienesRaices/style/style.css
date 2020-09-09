@@ -2,7 +2,7 @@
     margin:0px;
     padding:0px;
 }
-header{
+#headerIndex{
 background-image:url(../img/header.jpg);
 height:147vh;
 background-repeat: no-repeat;
@@ -11,12 +11,19 @@ background-position: top;
 h2{
     color:white;
 }
-ul {
-    list-style-type: none;
-    display: flex;
-    align-self: center;
+#headerNosotros{
+    background-color: rgb(56, 55, 55);
+    height:100px;
 }
-a{
+nav ul li {
+    display: inline;
+    margin-left:20px;
+    
+}
+nav{
+    text-align:right;
+}
+a {
     text-decoration: none;
 	color: white;
 	text-transform: capitalize;
@@ -27,13 +34,18 @@ body{
     margin-top:0px;
 }
 .nosotros{
-  display:inline-flex; 
+  display:flex; 
+  margin-bottom: 20px;
 }
 .iconos{
 text-align: center;
+margin-bottom: 20px;
+}
+.pIconos{
+    margin-top: 20px;
 }
 .anuncios{
-    display:inline-flex;  
+    display:flex;  
 }
 footer{
     background-color: rgb(56, 55, 55);
@@ -41,7 +53,7 @@ footer{
      
 }
 .iconosAnuncios{
-    display:inline-flex;  
+    display:flex;  
 }
 .conatcto{
     background-image:url(../img/encuentra.jpg);
@@ -49,5 +61,35 @@ footer{
     background-repeat: no-repeat;
 }
 .blog{
-    display:inline-flex;  
+    display:inline;  
+}
+.navFooter{
+    text-align: left;
+}
+.pFooter{
+    text-align: right;
+    color:white;
+}
+.container{
+    text-align: center;
+    margin-top:20px;
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
+ }
+.pNosotros{
+    font-size: 26px;
+}
+#div1Nosotros{
+    margin-top: 50px;
+    display:flex;
+}
+
+#anios25{
+   margin-top:20px;
+   margin-bottom: 20px;   
+}
+#parrafos1{
+    text-align: left;
+    margin-left: 15px;
 }
