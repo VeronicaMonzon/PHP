@@ -11,45 +11,52 @@ header{
     margin-left:10px;   
 }
 h1{
-   color:rgb(10, 9, 9);
-  font-size: 50px;
+   color:rgb(19, 196, 19);
+   font-size: 50px;
+   text-align: center;
    
 }
 h2{
-
-    color:rgb(221, 11, 193);
+    text-align: center;
+    color:#DF0174;
     margin-bottom: 20px;
 }
 
-.container{
-    text-align: center;
-    margin-top: 10px;
-}
 p{
     font-size: 26px;
-    color:rgb(15, 108, 214);
+    color:#58ACFA;
 }
 a{
     text-decoration: none;
-    color:rgb(68, 0, 255);
+    color:#F4FA58;
     font-size: 22px;
 }
 section{   
- background-color: rgba(146, 174, 233, 0.541);  
-
+ background-color: black;  
+ height:50vh;
  
 }
 .cajaPrincipal{
     display:flex; 
-    align-items: center;
+    justify-content: space-between;
+    
 }
 .caja{
     width:500px;
     height:200px;
+    text-align:center;
     border:rgb(136, 184, 212) solid 1px;
     border-radius: 20px;
     margin-right: 40px;
     margin-left: 50px;
     
   
+}
+footer{
+    background-color: rgb(44, 41, 41);
+}
+footer p{
+    text-align: center;
+    font-size:20px;
+    color:white;
 }
