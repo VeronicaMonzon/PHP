@@ -1,0 +1,95 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.contenedor{
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    display:flex;
+    justify-content: space-around;
+    
+}
+.cuadrado{
+    width:30%;
+    height:250px; 
+    background-color: #e9e9e6;
+    border-radius: 50px;
+    border: 2px solid #a5a4a2;
+    margin-top: 50px;
+
+}
+.titulo1{
+    width:200px;
+    height:60px;
+    background-color:hsl(0, 97%, 50%) ;
+    border: 2px solid grey;
+    border-radius: 10px;
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -30px;
+    text-align: center;
+}
+#pCuadrado{
+
+    margin-top: 20px;
+}
+.cuadrado p{
+    color:grey;
+    text-align: left;
+    margin-top: 50px;
+    margin-left:40px;
+    margin-right: 40px;
+    
+}
+.rectangulo {
+    width:30%;
+    height:450px;
+    background-color:#FAB704;
+    border-radius: 20px;
+    border: 2px solid;
+    margin-top: 50px;
+    display:flex;
+    flex-direction: column;
+
+}
+.titulo{
+    width:200px;
+    height:40px;
+    background-color:#FA6904 ;
+    border: 2px solid;
+    border-radius: 10px;
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -22px;
+    text-align: center;
+
+}
+.titulo h2{
+    margin-top: 5px;
+  
+}
+#imgPicachu{
+   margin-top: 20px;
+   width:60%;
+   margin-left: auto;
+   margin-right: auto;
+
+}
+ul{
+    margin-top: 20px;
+}
+ul li{
+    list-style: none;
+    font-weight: bold;
+    margin-left: 20px;
+
+}
+
+.rectangulo p{
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 20px;
+}
