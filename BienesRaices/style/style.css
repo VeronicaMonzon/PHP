@@ -6,12 +6,14 @@ header {
   background-image: url(../img/header.jpg);
   height: 100vh;
 }
-.divHeader {
+.contenedor {
   width: 70%;
+  margin: auto;
+}
+.divHeader {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: auto;
 }
 a {
   text-decoration: none;
@@ -24,8 +26,6 @@ nav ul li {
   margin-left: 20px;
 }
 #h2Index {
-  width: 70%;
-  margin: auto;
   height: 85vh;
   color: white;
   font-size: 36px;
@@ -37,75 +37,155 @@ nav ul li {
 #h2Index p {
   margin-top: 15px;
 }
-.tituloSeccion{
-    font-size: 26px;
-    text-align: center;
-    margin-top: 25px;
-    margin-bottom: 20px;
+.tituloSeccion {
+  font-size: 26px;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 20px;
 }
-.masNosotros{
-    width:70%;
-    margin:auto;
-    display:flex;
-    justify-content: space-between;
-    text-align: center;
+.masNosotros {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
 }
-.masNosotros p{
-    margin-right: 20px;
+.masNosotros p {
+  margin-right: 20px;
 }
-.iconos{
-    margin-top: 20px;
-    margin-bottom: 50px;
+.iconos {
+  margin-top: 20px;
+  margin-bottom: 50px;
 }
-.iconos h3{
-    margin-top:30px;
-    margin-bottom: 30px;
-    font-size: 26px;
+.iconos h3 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 26px;
 }
-.anuncios{
-    width:70%;
-    margin:auto;
-    display:flex;
- 
-
+.anuncios {
+  display: flex;
+  justify-content: space-around;
 }
-.marcosAnuncios{
-   width:33%;
-   background-color: rgba(128, 128, 128, 0.062);
-   border-style: solid;
-   border-color: rgb(187, 187, 189);
+.marcosAnuncios {
+  width: 32%;
+  background-color: rgba(128, 128, 128, 0.062);
+  border: 1px solid rgb(187, 187, 189);
 }
-img[alt^="anuncio"]{
-    width:100%;
+img[alt^="anuncio"] {
+  width: 100%;
 }
-.tituloAnuncio{
- font-size: 26px;
- text-align:left;
- margin-top: 20px;
- margin-bottom: 10px;
- margin-left: 10px;
-
+.tituloAnuncio {
+  font-size: 26px;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 10px;
 }
-.precios{
-    color:#98F710;
-    font-weight: bold;
-    margin-top: 10px;
-    margin-left: 10px;
+.precios {
+  color: #7ccc0b;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 10px;
 }
-.iconosAnuncios{
-margin:auto;
-
-    display:flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-left: 10px;
-
+.iconosAnuncios {
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 10px;
+  margin-bottom: 20px;
 }
-.marcosAnuncios p{
-    margin-left: 10px;
+.marcosAnuncios p {
+  margin: 10px;
+  line-height: 2em;
 }
-.iconosAnuncios p{
-    font-weight: bold;
-    margin-left: 10px;
-
+.iconosAnuncios p {
+  font-weight: bold;
+  margin-left: 10px;
+}
+.bt-naranja {
+  width: 94%;
+  height: 50px;
+  background-color: orange;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  border-style: none;
+  margin: 10px;
+}
+.bt-verde {
+  width: 15%;
+  height: 50px;
+  background-color: #7ccc0b;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  border-style: none;
+}
+.derecha {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 40px;
+  margin-right: 8px;
+}
+.contacto {
+  width: 100%;
+  height: 60vh;
+  background-image: url(../img/encuentra.jpg);
+  margin-top: 25px;
+}
+.contenido-contacto {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+.contenido-contacto h2,
+p {
+  color: white;
+}
+.bt-contacto {
+  width: 15%;
+  height: 50px;
+  background-color: orange;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  border-style: none;
+}
+.contenido-contacto h2 {
+  font-size: 36px;
+}
+.contenido-contacto p {
+  font-size: 20px;
+}
+.span-naranja {
+  color: orange;
+}
+.titulo-blog {
+  font-size: 26px;
+  color: black;
+}
+.barra-verde {
+  width: 10%;
+  height: 10px;
+  background-color: #7ccc0b;
+}
+.blog {
+  width: 70%;
+  display: flex;
+}
+.blog p {
+  color: black;
+}
+footer {
+  background-color: rgb(56, 55, 55);
+  height: 50px;
+}
+.navFooter {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
 }
