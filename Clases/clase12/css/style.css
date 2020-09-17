@@ -1,0 +1,60 @@
+.fila {
+  display: grid;
+}
+.col-1 {
+  width: 8.33333%;
+  background-color: greenyellow;
+}
+.col-2 {
+  width: 16.6666%;
+  background-color: hotpink;
+}
+.col-3 {
+  width: 24.9999%;
+  background-color: rgb(56, 144, 16);
+}
+
+.col-4 {
+  width: 33.3333%;
+  background-color: rgb(121, 77, 146);
+}
+
+.col-5 {
+  width: 41.6666%;
+  background-color: rgb(255, 245, 105);
+}
+
+.col-6 {
+  width: 49.9999%;
+  background-color: rgb(135, 255, 105);
+}
+
+.col-7 {
+  width: 58.33333%;
+  background-color: rgb(105, 220, 255);
+}
+
+.col-8 {
+  width: 66.6666%;
+  background-color: rgb(80, 55, 67);
+}
+
+.col-9 {
+  width: 74.9999%;
+  background-color: rgb(255, 190, 105);
+}
+
+.col-10 {
+  width: 83.33333%;
+  background-color: rgb(105, 158, 255);
+}
+
+.col-11 {
+  width: 91.6666%;
+  background-color: rgb(105, 255, 125);
+}
+
+.col-12 {
+  width: 100%;
+  background-color: rgb(170, 131, 151);
+}
