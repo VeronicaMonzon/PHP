@@ -1,20 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400;500;600&display=swap");
 * {
   margin: 0px;
   padding: 0px;
-  font-family: "Baloo Tammudu 2", cursive;
 }
-header {
-  background-image: url(../img/header.jpg);
-  height: 100vh;
-}
+
 .contenedor {
   width: 70%;
   margin: auto;
 }
 .divHeader {
-  /*background-image: url(../img/header.jpg);
-  height: 100vh;*/
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -24,11 +17,6 @@ a {
   color: white;
   font-size: 20px;
 }
-a:hover {
-  text-decoration-line: underline;
-  text-decoration-color: #7ccc0b;
-}
-
 nav ul li {
   list-style: none;
   display: inline-flex;
@@ -50,6 +38,7 @@ nav ul li {
   font-size: 26px;
   text-align: center;
   margin-top: 25px;
+  margin-bottom: 20px;
 }
 .masNosotros {
   display: flex;
@@ -69,8 +58,6 @@ nav ul li {
   font-size: 26px;
 }
 .anuncios {
-  margin-top: 20px;
-  margin-bottom: 20px;
   display: flex;
   justify-content: space-around;
 }
@@ -201,8 +188,7 @@ footer {
 .navFooter {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding-top: 5px;
+  padding-top: 15px;
 }
 .parrafo {
   color: black;
@@ -265,66 +251,5 @@ img[alt^="comillas"] {
   line-height: 2em;
 }
 .todo-blog {
-  margin-bottom: 20px;
   display: flex;
-}
-.headerNosotros {
-  height: 10vh;
-  background-color: rgb(56, 55, 55);
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-img[alt^="sala"] {
-  width: 50%;
-  height: auto;
-}
-.alinearLeft {
-  text-align: left;
-  padding-left: 1em;
-  margin-top: 1em;
-}
-img[alt^="contacto"] {
-  height: auto;
-  width: 100%;
-}
-.contenedorForm {
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-legend {
-  font-size: 20px;
-  margin-left: 5px;
-  font-weight: bold;
-}
-label {
-  display: block;
-}
-textarea {
-  width: 100%;
-  background-color: #f2f2f2;
-  border-radius: 5px;
-  border-color: #f2f2f2;
-}
-input,
-select {
-  width: 100%;
-  background-color: #f2f2f2;
-  border-radius: 3px;
-  border: 1px solid #f2f2f2;
-  margin-top: 0.5em;
-  margin-bottom: 1em;
-}
-fieldset {
-  padding: 1em;
-  margin: 2em 0;
-}
-input[type="radio"] {
-  width: 20px;
-}
-
-input[type="submit"] {
-  margin-top: 1em;
-  font-size: 22px;
 }

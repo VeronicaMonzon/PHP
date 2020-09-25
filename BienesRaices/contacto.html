@@ -1,111 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/styleContacto.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style.css" />
     <title>Contacto</title>
-</head>
-<body>
-    <header>
-       <nav class="nav-contacto">
-        <img  src="img/logo.svg" alt="imagen del logo">
-        <nav>
-            <ul>
-              <li><a href="index.html">Home </a></li>
-              <li><a href="nosotros.html">Nosotros </a></li>
-              <li><a href="anuncios.html">Anuncios </a></li>
-              <li><a href="blog.html">Blog </a></li>
-              <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-          </nav>
+  </head>
+  <body>
+    <header class="headerNosotros">
+      <a id="hoverLogo" href="index.html">
+        <img src="img/logo.svg" alt="logo bienes raices" />
+      </a>
+      <nav>
+        <ul>
+          <li><a href="nosotros.html">Nosotros </a></li>
+          <li><a href="anuncios.html">Anuncios </a></li>
+          <li><a href="blog.html">Blog </a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
     </header>
     <section>
-        <h2 align="center">Contacto</h2>
-        <img  src="img/destacada3.jpg" alt="imagen del logo">
+      <p class="tituloSeccion parrafo">Contacto</p>
+      <img src="img/destacada3.jpg" alt="contacto imagen destacada" />
     </section>
-    <section>
-        <h3>Llena el Formulario de Contacto</h3>
-        <form>
-            <fieldset>
-                <legend>Informacion Personal</legend>
-                <label>Nombre:<br>
-                    <input type="text" name="nombre" placeholder="Tu nombre">
-                </label>
-                <br>
-                <br>
-                <label>E-mail:<br>
-                    <input type="email" name="email" placeholder="Tu E-mail">
-                </label>
-                <br>
-                <br>
-                <label>Telefono:<br>
-                    <input type="tel" name="tel" placeholder="Tu telefono">
-                </label>
-    
-                <br>
-                <br>
-                <label>Mensaje:<br>
-                    <textarea name="mensaje" rows="10" cols="80"></textarea>
+    <section class="contenedorForm">
+      <p class="tituloSeccion parrafo">Llena el Formulario de Contacto</p>
+      <form>
+        <fieldset>
+          <legend>Informacion Personal</legend>
 
-                </label>
-            </fieldset>
-            <br>
-            <fieldset>
-                <legend>
-                    Informacíon sobre Propiedad</legend>
-                <label>Vende o Compra: <br>
-                    <select>
-                        <option>---Seleccione---</option>
-                        <option>Compra</option>
-                        <option>Venta</option>
-                    </select>
-                </label>
-                <br>
-                <br>
-                <label>Presupuesto: <br>
-                    <input type="text" name="presupuesto">
-                </label>
-            </fieldset>
-            <fieldset>
-               <legend>
-                   Contacto
-               </legend>
-               <h3>Como desea ser Contactado:</h3>
-               <label>Telefono <br>
-                  <input type="radio" name="contacto">
-                </label>
-                <br>
-                <br>
-                <label>Correo <br>
-                    <input type="radio" name="contacto">
-                </label>
-                <br>               
-                <p>Si eligió teléfono, elija la fecha y hora</p>
-                <br> 
-                <label>Fecha: <br>
-                    <input type="date" name="fecha">
-                </label>
-                <br>
-                <br>
-                <label>Hora:<br>
-                    <input type="time" name="hora">
-                </label>
-                <br>
-                <br>
-                <input type="submit" name="Enviar">
-            </fieldset>
-        </form>
+          <label for="nombre">Nombre: </label>
+          <input
+            type="text"
+            id="nombre"
+            name="nombre"
+            placeholder="Tu nombre"
+          />
+          <label for="email">E-mail: </label>
+          <input type="email" id="email" name="email" placeholder="Tu E-mail" />
+
+          <label for="tel">Telefono: </label>
+          <input type="tel" id="tel" name="tel" placeholder="Tu telefono" />
+
+          <label for="mensaje">Mensaje: </label>
+          <textarea name="mensaje" id="mensaje" rows="10" cols="80"></textarea>
+        </fieldset>
+
+        <fieldset>
+          <legend>Informacíon sobre Propiedad</legend>
+          <label for="option">Vende o Compra: </label>
+
+          <select id="option">
+            <option>---Seleccione---</option>
+            <option>Compra</option>
+            <option>Venta</option>
+          </select>
+          <label for="presupuesto">Presupuesto:</label>
+          <input type="text" id="presupuesto" name="presupuesto" />
+        </fieldset>
+        <fieldset>
+          <legend>Contacto</legend>
+          <h3>Como desea ser Contactado:</h3>
+          <label for="contacto">Telefono </label>
+          <input type="radio" name="contacto" />
+
+          <label>Correo </label>
+          <input type="radio" name="contacto" />
+
+          <p>Si eligió teléfono, elija la fecha y hora</p>
+
+          <label for="fecha">Fecha: </label>
+          <input type="date" id="fecha" name="fecha" />
+          <label for="hora">Hora: </label>
+          <input type="time" id="hora" name="hora" />
+
+          <input class="bt-verde" type="submit" name="Enviar" />
+        </fieldset>
+      </form>
     </section>
-    <br>
+    <br />
     <footer>
-        <a href="index.html">Home  |</a>
-        <a href="nosotros.html">Nosotros  |</a>
-        <a href="anuncios.html">Anuncios  |</a>
-        <a href="blog.html">Blog  |</a>
-        <a href="contacto.html">Contacto</a> 
-        <a>Copyright © Veronica Monzon 2020</a>
+      <nav class="navFooter contenedor">
+        <ul>
+          <li><a href="nosotros.html">Nosotros </a></li>
+          <li><a href="anuncios.html">Anuncios </a></li>
+          <li><a href="blog.html">Blog </a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+        <p class="pFooter">
+          Todos los derechos reservados © Verónica Monzón 2020
+        </p>
+      </nav>
     </footer>
-    
-</body>
+  </body>
 </html>
