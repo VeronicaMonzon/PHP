@@ -10,7 +10,6 @@ header {
 }
 section {
   width: 80%;
-  height: 60vh;
   margin-left: auto;
   margin-right: auto;
 }
@@ -51,6 +50,7 @@ a:hover {
 .cajaPrincipal {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 2rem;
 }
 .caja {
   width: 30%;
