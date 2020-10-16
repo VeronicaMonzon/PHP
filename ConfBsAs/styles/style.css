@@ -1,0 +1,17 @@
+img[Alt="Codo a Codo"]{
+    width:120px;
+}
+#footer{
+   background-color:#214d67 ; 
+   color:white
+}
+.verde{
+    background-color: #97C93E; 
+    color:white;
+}
+.verde:hover{
+    box-shadow: 0 3px 6px 0 rgba(32, 33, 36, 0.28);
+}
+.carousel-inner{
+    filter: brightness(0.4);
+}

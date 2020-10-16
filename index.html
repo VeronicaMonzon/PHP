@@ -1,130 +1,236 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styleIndex.css" />
-    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css" />
-    <title>Curso PHP</title>
+    <title> PHP FullStack</title>
   </head>
-  <body>
+  <body class="bg-dark">
     <header>
-      <img
-        class="logo"
-        src="img/logoPhp.png"
-        width="150px"
-        height="100px"
-        alt="Logo PHP "
-      />
-    </header>
-    <main>
-      <section class="contenedor">
-        <h1>Curso PHP Fullsatck</h1>
-        <h2>FrontEnd</h2>
-        <div class="cajaPrincipal">
-          <div class="caja">
-            <p>Trabajo práctico: página de bienes raíces.</p>
-            <a target="_blank" href="BienesRaices/index.html">
-              <i class="fa fa-battery-full" aria-hidden="true"></i>
-              Bienes Raíces
-            </a>
+     
+        <div class="row">
+          <div class="col-sm-1">
+            <img
+            class="logo d-none d-md-block"
+            src="img/logoPhp.png"
+            width="150px"
+            height="100px"
+            alt="Logo PHP "
+          />
           </div>
-          <div class="caja">
-            <p>Actividades propuestas</p>
-            <ul>
-              <li>
-                <a
-                  target="_blank"
-                  href="actividades/actividad3092020/index.html"
-                >
-                  <i class="fa fa-battery-full" aria-hidden="true"></i>
-                  Actividad 03-09-2020
-                </a>
-              </li>
-              <li>
-                <a
-                  target="_blank"
-                  href="actividades/actividad10092020/picachu.html"
-                >
-                  <i class="fa fa-battery-full" aria-hidden="true"></i>
-                  Actividad 10-09-2020
-                </a>
-              </li>
-              <li>
-                <a
-                  target="_blank"
-                  href="actividades/activdad15092020/iconos.html"
-                >
-                  <i class="fa fa-battery-full" aria-hidden="true"></i>
-                  Actividad 15-09-2020
-                </a>
-              </li>
-              <li>
-                <a
-                  target="_blank"
-                  href="actividades/actividad17092020/google.html"
-                >
-                  <i class="fa fa-battery-full" aria-hidden="true"></i>
-                  Actividad 17-09-2020
-                </a>
-              </li>
-            </ul>
+          <div class="col-sm-11">
+            <h1 class="text-white text-center mt-3 mb-5">PHP FullStack</h1>
           </div>
-          <div class="caja">
-            <p>Actividades obligatorias</p>
-            <ul>
-              <li>
-                <a target="_blank" href="Obligatorios/obligatorio1.html">
-                  <i class="fa fa-battery-full" aria-hidden="true"></i>
-                  Actividad obligatoria 1</a
-                >
-              </li>
-              <li>
-                <a target="_blank" href="Obligatorios/formulario.html">
-                  <i class="fa fa-battery-full" aria-hidden="true"></i>
-                  Actividad Formulario</a
-                >
-              </li>
-              <li>
-                <a
-                  target="_blank"
-                  href="Obligatorios/obligatorio2/obligatorio2.html"
-                >
-                  <i class="fa fa-battery-full" aria-hidden="true"></i>
-                  Actividad obligatoria 2</a
-                >
-              </li>
-              <li>
-                <a target="_blank" href="Obligatorios/bootstrap1/index.html">
-                  <i class="fa fa-battery-full" aria-hidden="true"></i>
-                  Actividad Bootstrap 1</a
-                >
-              </li>
-              <li>
-                <a
-                  target="_blank"
-                  href="Obligatorios/bootstrap2/bootstrap2.html"
-                >
-                  <i class="fa fa-battery-full" aria-hidden="true"></i>
-                  Actividad Bootstrap 2</a
-                >
-              </li>
-              <li>
-                <a
-                  target="_blank"
-                  href="Obligatorios/JavaScript1/JavaScript1.html"
-                >
-                  <i class="fa fa-battery-full" aria-hidden="true"></i>
-                  JavaScript unidad 1</a
-                >
-              </li>
-            </ul>
+        </div>
+   
+       
+
+      </header>
+      <section>
+        <div class="container">
+          <!--trabajos practicos-->
+          <div class="row">
+            <div class="col">
+              <h2 class="text-white text-center mt-3 mb-5">Trabajos prácticos</h2>
+            </div>
+          </div>
+          <div class="row row-cols-1 row-cols-md-3">
+            <div class="col mb-4">
+              <div class="card h-100">
+                <img src="img/bienesRaices.jpg" class="card-img-top" alt="Bienes Raíces">
+                <div class="card-body">
+                  <h5 class="card-title">Bienes Raíces</h5>
+                  <p class="card-text">Página realizada sólo con HTML y css.</p>
+                </div>
+                <a target="_blank" href="BienesRaices/index.html" class="btn btn-secondary">Ver</a>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card h-100">
+                <img src="img/indexA.PNG" class="card-img-top" alt="Conf">
+                <div class="card-body">
+                  <h5 class="card-title">Conf Bs As</h5>
+                  <p class="card-text">Página realizada con Bootstrap.</p>
+                </div>
+                <a target="_blank" href="ConfBsAs/index.html" class="btn btn-secondary">Ver</a>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card h-100">
+                <img src="img/webJs.jpg" class="card-img-top" alt="proyecto js">
+                <div class="card-body">
+                  <h5 class="card-title">CodoAcodoWeb</h5>
+                  <p class="card-text">Proyecto js</p>
+                </div>
+                <a target="_blank" href="#" class="btn btn-secondary">Ver</a>
+              </div>
+            </div>
+
+          </div>
+          <!--Desafios semanales-->
+          
+          <div class="row">
+            <div class="col">
+              <h2 class="text-white text-center mt-3 mb-5">Actividades Propuestas</h2>
+            </div>
+          </div>
+          <!--Primer fila-->
+          <div class="row row-cols-1 row-cols-md-3">
+            <div class="col mb-4">
+              <div class="card h-100">
+                <img src="img/Actividad3-09.jpg" class="card-img-top" alt="facebook">
+                <div class="card-body">
+                  <h5 class="card-title">Actividad 03-09-2020</h5>
+                  <p class="card-text">primeras actividades con css</p>
+                </div>
+                <a target="_blank" href="actividades/actividad3092020/index.html" class="btn btn-secondary">Ver</a>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card h-100">
+                <img src="img/Actividad10-9.jpg" class="card-img-top" alt="pikachu">
+                <div class="card-body">
+                  <h5 class="card-title">Actividad 10-09-2020</h5>
+                  <p class="card-text">Actividad realizada utilizando las propiedades de css flex y position</p>
+                </div>
+                <a target="_blank" href="actividades/actividad10092020/picachu.html" class="btn btn-secondary">Ver</a>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card h-100">
+                <img src="img/fontawesome.jpg" class="card-img-top" alt="iconos">
+                <div class="card-body">
+                  <h5 class="card-title">FontAwesome</h5>
+                  <p class="card-text">Actividad desarrolada para utilizar iconos de FontAwesome.</p>
+                </div>
+                <a target="_blank" href="actividades/activdad15092020/iconos.html" class="btn btn-secondary">Ver</a>
+              </div>
+            </div>
+
+          </div>
+          <!--Segunda fila-->
+          <div class="row row-cols-1 row-cols-md-3">
+            <div class="col mb-4">
+              <div class="card h-100">
+                <img src="img/google.jpg" class="card-img-top" alt="google">
+                <div class="card-body">
+                  <h5 class="card-title">Actividad 17-09-2020</h5>
+                  <p class="card-text">El desafio era clonar Google!</p>
+                </div>
+                <a target="_blank" href="actividades/actividad17092020/google.html" class="btn btn-secondary">Ver</a>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card h-100">
+                <img src="img/portapapeles_javascript.png" class="card-img-top" alt="imagen JavaScript">
+                <div class="card-body">
+                  <h5 class="card-title">Actividad 09-10-2020</h5>
+                  <p class="card-text">Practica de ejercicios con JavaScript</p>
+                </div>
+                <a target="_blank" href="actividades/EjerciciosJs/ejercicios.html" class="btn btn-secondary">Ver</a>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <h2 class="text-white text-center mt-3 mb-5">Ejercicios Obligatorios de Codo a Codo</h2>
+            </div>
+          </div>
+          <!--Primer fila-->
+          <div class="row row-cols-1 row-cols-md-3">
+            <div class="col mb-4">
+              <div class="card h-100">
+                <img src="img/receta.jpg" class="card-img-top" alt="receta">
+                <div class="card-body">
+                  <h5 class="card-title">Receta</h5>
+                  <p class="card-text">El ejercicio pedia una receta de no mas de 10 lineas.</p>
+                </div>
+                <a target="_blank" href="Obligatorios/obligatorio1.html" class="btn btn-secondary">Ver</a>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card h-100">
+                <img src="img/miniformulario.jpg" class="card-img-top" alt="miniform">
+                <div class="card-body">
+                  <h5 class="card-title">Mini Formulario</h5>
+                  <p class="card-text">Pequeño formulario, ejercicio obligatorio html.</p>
+                </div>
+                <a target="_blank" href="Obligatorios/formulario.html" class="btn btn-secondary">Ver</a>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card h-100">
+                <img src="img/cuadrados.jpg" class="card-img-top" alt="cuadrados">
+                <div class="card-body">
+                  <h5 class="card-title">Cuadrados</h5>
+                  <p class="card-text">Ejercicio de css, con display flex.</p>
+                </div>
+                <a target="_blank" href="Obligatorios/obligatorio2/obligatorio2.html" class="btn btn-secondary">Ver</a>
+              </div>
+            </div>
+
+          </div>
+          <!--Segunda fila-->
+          <div class="row row-cols-1 row-cols-md-3">
+            <div class="col mb-4">
+              <div class="card h-100">
+                <img src="img/bootstrapt_1.jpg" class="card-img-top" alt="bootstrap">
+                <div class="card-body">
+                  <h5 class="card-title">Cards</h5>
+                  <p class="card-text">El ejercicio pedia una receta de no mas de 10 lineas.</p>
+                </div>
+                <a target="_blank" href="Obligatorios/bootstrap1/index.html" class="btn btn-secondary">Ver</a>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card h-100">
+                <img src="img/bootstrap2.jpg" class="card-img-top" alt="formulario">
+                <div class="card-body">
+                  <h5 class="card-title">Formulario</h5>
+                  <p class="card-text">Formulario, ejercicio obligatorio de Bootstrap.</p>
+                </div>
+                <a target="_blank" href="Obligatorios/bootstrap2/bootstrap2.html" class="btn btn-secondary">Ver</a>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card h-100">
+                <img src="img/js1.jpg" class="card-img-top" alt="unidad 1">
+                <div class="card-body">
+                  <h5 class="card-title">Unidad 1 Js</h5>
+                  <p class="card-text">Ejercicio obligatorio unidad 1 de JavaScript.</p>
+                </div>
+                <a target="_blank" href="Obligatorios/JavaScript1/JavaScript1.html" class="btn btn-secondary">Ver</a>
+              </div>
+            </div>
+
+          </div>
+           <!--terceraa fila-->
+           <div class="row row-cols-1 row-cols-md-3">
+            <div class="col mb-4">
+              <div class="card h-100">
+                <img src="img/js2.jpg" class="card-img-top" alt="bootstrap">
+                <div class="card-body">
+                  <h5 class="card-title">Unidad 2 Js</h5>
+                  <p class="card-text">El ejercicio las tablas del 11 al 9.</p>
+                </div>
+                <a target="_blank" href="Obligatorios/JavaScript1/javascritp2.html" class="btn btn-secondary">Ver</a>
+              </div>
+            </div>
+           
+
           </div>
         </div>
       </section>
-    </main>
-    <footer>
-      <p>by Verónica Monzón</p>
-    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
   </body>
 </html>
