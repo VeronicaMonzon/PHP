@@ -1,6 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;  
+}
+body{
+    position: relative; 
+}
 img[Alt="Codo a Codo"]{
     width:120px;
 }
+
 #footer{
    background-color:#214d67 ; 
    color:white
@@ -15,3 +23,4 @@ img[Alt="Codo a Codo"]{
 .carousel-inner{
     filter: brightness(0.4);
 }
+
