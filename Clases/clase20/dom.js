@@ -52,3 +52,52 @@ for (let i = 0; i < items.length; i++) {
 //por tag name
 
 var header=document.getElementsByTagName('li')
+
+var probandoBoton = document.getElementById('button')
+
+probandoBoton.addEventListener('click', funcionF)
+
+function funcionF(){
+
+document.getElementById('header-title').style.backgroundColor = 'red'
+document.getElementById('header-title').textContent = 'Color rojo'
+
+var valorBoton = document.getElementById('inputUnico')
+
+console.log(valorBoton.value)
+    
+console.log('hola probando el click del mouse')
+console.log('Probando sin funcion onclick en botton')
+var textoAgregado=document.getElementById('output')
+
+var numero=valorBoton*2
+
+textoAgregado.textContent=numero
+}
+
+var agregarOvaerlay= document.getElementById('agregarClase')
+
+agregarOvaerlay.addEventListener('click',activarModal)
+
+function activarModal(){
+    document.getElementById('overlay').style.display='block'
+    document.getElementById('modal').style.display='block'
+    console.log('probando modal')
+}
+
+var tomarTexto = document.querySelector('input[type="text"]')
+
+tomarTexto.addEventListener('keydown',duplicarTexto)
+
+function duplicarTexto(e){
+
+    console.log(e)
+    console.log(e.target.value)
+
+    var textoAgregado = document.getElementById('output')
+
+
+
+textoAgregado.textContent = e.target.value                                                                                                        
+
+}

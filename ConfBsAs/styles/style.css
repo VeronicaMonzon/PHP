@@ -23,4 +23,14 @@ img[Alt="Codo a Codo"]{
 .carousel-inner{
     filter: brightness(0.4);
 }
+@media (max-width:359px){
+    .none1{
+        display:none;
+    }
+ }
+@media (max-width:625px){
+.none{
+    display:none;
+}
+}
 
